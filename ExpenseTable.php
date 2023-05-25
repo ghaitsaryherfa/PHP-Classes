@@ -97,7 +97,7 @@ $result = $selectSql->sql;
                         <div class="card-header py-3">
                             <h6 class="m-0 font-weight-bold text-primary">Shopping Expenses</h6>
                             <div>
-                                <a href="ExpenseInput.php">
+                                <a href="ExpenseInput.html">
                                     <button type="button" class="btn btn-primary">Create Shopping Expenses</button>
                                 </a>
                             </div>
@@ -131,7 +131,7 @@ $result = $selectSql->sql;
                                                 <td><?php echo $row['price']; ?></td>
                                                 <td><?php echo $row['total_price']; ?></td>
                                                 <td>
-                                                    <a href="ExpenseInput.php?id=<?php echo $row['shopping_code']; ?>" type="button" class="btn btn-warning btn-sm">Edit</a>
+                                                    <a href="ExpenseInput.html?id=<?php echo $row['shopping_code']; ?>" type="button" class="btn btn-warning btn-sm">Edit</a>
                                                 </td>
                                                 <td>
                                                     <a href="" type="button" data-toggle="modal" data-id="<?php echo $row['shopping_code']; ?>" data-target="#myModal" id="del" class="btn btn-danger btn-sm">Delete</a>
